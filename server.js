@@ -58,7 +58,7 @@ app.delete("/delete/:id",async(req,res)=>{
 
 
 
-mongoose.connect("mongodb://127.0.0.1:27017/website")
+mongoose.connect("mongodb+srv://mahacm98:Maha1234@cluster0.igmsqwf.mongodb.net/")
 .then(()=>{
     console.log("connect to DB")
     app.listen(5000,()=>console.log("Server is running"))
